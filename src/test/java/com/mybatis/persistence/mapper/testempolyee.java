@@ -23,7 +23,7 @@ public class testempolyee extends AbstractTransactionalJUnit4SpringContextTests 
     public void insertEmployee(){
         Employee emp = new Employee();
         emp.setEmpid(1);
-        emp.setFirstName("Manik");
+        emp.setFirstName("cano");
         emp.setLastName("Magar");
         employeeMapper.insertEmployee(emp);
     }
