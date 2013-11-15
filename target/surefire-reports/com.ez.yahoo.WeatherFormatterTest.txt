@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.ez.yahoo.WeatherFormatterTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.266 sec <<< FAILURE!
+testFormat(com.ez.yahoo.WeatherFormatterTest)  Time elapsed: 0.266 sec  <<< ERROR!
+java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:78)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:72)
+	at org.apache.commons.io.IOUtils.copy(IOUtils.java:1049)
+	at org.apache.commons.io.IOUtils.toString(IOUtils.java:359)
+	at com.ez.yahoo.WeatherFormatterTest.testFormat(WeatherFormatterTest.java:21)
